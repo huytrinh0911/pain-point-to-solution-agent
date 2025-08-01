@@ -8,30 +8,26 @@
 - Thư viện: `nltk`
 - Dữ liệu NLTK: `punkt`, `stopwords`
 
-## Cài đặt
-1. Cài đặt thư viện:
+## Cách chạy
+### B1: Clone the Repository
+```bash
+git clone https://github.com/huytrinh0911/pain-point-to-solution-agent.git
+cd pain-point-to-solution-agent
+```
+Cấu trúc thư mục:
+- `agent.py`: Mã nguồn chính của Agent.
+- `features.json`: Cơ sở tri thức chứa thông tin về các tính năng của Filum.ai.
+- `input.json`: Chứa mô tả điểm đau và ngữ cảnh doanh nghiệp để Agent xử lý.**(có thể thay đổi để thử nghiệm với các điểm đau khác nhau)**
+
+### B2: Cài đặt thư viện
    ```bash
    pip install nltk
    ```
-2. Tải dữ liệu NLTK:
-   ```python
-   import nltk
-   nltk.download('punkt')
-   nltk.download('stopwords')
-   ```
-
-## Cấu trúc thư mục
-- `agent.py`: Mã nguồn chính của Agent.
-- `features.json`: Cơ sở tri thức chứa thông tin về các tính năng của Filum.ai.
-- `input.json` - Chứa mô tả điểm đau và ngữ cảnh doanh nghiệp để Agent xử lý.
-
-## Cách chạy
-1. Lưu `agent.py`, `input.json` và `features.json`  trong cùng thư mục.
-2. Chạy script:
-   ```bash
-   python agent.py
-   ```
-
+### B3: Chạy mã nguồn
+```bash
+python agent.py
+```
+---
 ## Ví dụ đầu vào
 Thay đổi đầu vào trong `input.json` để mô tả pain point của doanh nghiệp. Ví dụ:
 
