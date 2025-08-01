@@ -380,3 +380,12 @@ if __name__ == "__main__":
   ]
 }
 ```
+
+## Hạn chế
+- Hiện tại sử dụng phương pháp khớp từ khóa đơn giản. Có thể cải tiến bằng các mô hình NLP tiên tiến như BERT để hiểu toàn bộ câu và phân loại chính xác hơn.
+- Chỉ sử dụng các tính năng đã được định nghĩa trong `features.json`. Cần cập nhật cơ sở tri thức khi có tính năng mới.
+- Điểm phù hợp (`relevance_score`) được tính dựa trên các yếu tố đơn giản. Chưa dựa vào ngữ cảnh doanh nghiệp như: 
+  - Quy mô doanh nghiệp
+  - Ngành nghề
+  - Kênh giao tiếp
+  - Mức độ ưu tiên của pain point
