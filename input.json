@@ -1,0 +1,9 @@
+{
+  "pain_point": {
+    "description": "We are struggling to collect customer feedback consistently after a purchase."
+  },
+  "business_context": {
+    "industry": "retail",
+    "channels": ["web", "POS"]
+  }
+}

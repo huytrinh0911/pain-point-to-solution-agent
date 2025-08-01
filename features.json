@@ -1,0 +1,67 @@
+[
+  {
+    "feature_id": "voc_surveys_001",
+    "module": "Automated Post-Purchase Surveys",
+    "category": "VoC - Surveys",
+    "description": "Automatically send surveys via email or SMS after each transaction to collect consistent customer feedback.",
+    "pain_points_addressed": [
+      "Difficulty in collecting consistent customer feedback",
+      "Lack of data to measure customer satisfaction"
+    ],
+    "keywords": ["survey", "feedback", "post-purchase", "customer satisfaction"],
+    "channels_supported": ["web", "POS", "email", "SMS"],
+    "link_to_docs": "https://filum.ai/docs/voc-surveys"
+  },
+  {
+    "feature_id": "ai_inbox_001",
+    "module": "AI Agent for FAQ & First Response",
+    "category": "AI Customer Service - AI Inbox",
+    "description": "AI automatically answers frequently asked questions, reducing workload for agents and providing instant responses.",
+    "pain_points_addressed": [
+      "Support agents overwhelmed by repetitive questions",
+      "Long customer response times"
+    ],
+    "keywords": ["AI agent", "FAQ", "automation", "response time"],
+    "channels_supported": ["chat", "email", "Zalo"],
+    "link_to_docs": "https://filum.ai/docs/ai-inbox"
+  },
+  {
+    "feature_id": "insights_experience_001",
+    "module": "Customer Journey Experience Analysis",
+    "category": "Insights - Experience",
+    "description": "Identifies friction points by analyzing feedback and operational data across the customer journey.",
+    "pain_points_addressed": [
+      "Unclear which customer touchpoints cause frustration",
+      "Difficulty identifying pain points in customer journey"
+    ],
+    "keywords": ["journey", "friction", "analysis", "experience"],
+    "channels_supported": ["all"],
+    "link_to_docs": "https://filum.ai/docs/insights-experience"
+  },
+  {
+    "feature_id": "customer_360_001",
+    "module": "Customer Profile with Interaction History",
+    "category": "Customer 360 - Customers",
+    "description": "Consolidates all touchpoints and past interactions for a comprehensive customer view.",
+    "pain_points_addressed": [
+      "Difficulty getting a single view of customer interaction history",
+      "Fragmented customer data"
+    ],
+    "keywords": ["customer profile", "interaction history", "360 view"],
+    "channels_supported": ["all"],
+    "link_to_docs": "https://filum.ai/docs/customer-360"
+  },
+  {
+    "feature_id": "voc_analysis_001",
+    "module": "AI-Powered Topic & Sentiment Analysis",
+    "category": "VoC - Conversations/Surveys",
+    "description": "Automatically extracts key topics and sentiment from open-ended survey responses and conversations.",
+    "pain_points_addressed": [
+      "Manually analyzing open-ended survey responses is time-consuming",
+      "Difficulty identifying trends in customer feedback"
+    ],
+    "keywords": ["topic analysis", "sentiment", "survey", "conversation"],
+    "channels_supported": ["survey", "chat", "email"],
+    "link_to_docs": "https://filum.ai/docs/voc-analysis"
+  }
+]
